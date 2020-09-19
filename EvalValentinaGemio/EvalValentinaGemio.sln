@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalValentinaGemio", "EvalValentinaGemio\EvalValentinaGemio.csproj", "{F80F0075-BF38-4D16-8215-1DE8A74E7BFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80F0075-BF38-4D16-8215-1DE8A74E7BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80F0075-BF38-4D16-8215-1DE8A74E7BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80F0075-BF38-4D16-8215-1DE8A74E7BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80F0075-BF38-4D16-8215-1DE8A74E7BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1F271DE-7A0F-4616-B110-5C7ECD706BFA}
+	EndGlobalSection
+EndGlobal
