@@ -17,12 +17,14 @@ namespace EvalValentinaGemio.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/Paises
+        [Authorize]
         public IQueryable<Paises> GetPaises()
         {
             return db.Paises;
         }
 
         // GET: api/Paises/5
+        [Authorize]
         [ResponseType(typeof(Paises))]
         public IHttpActionResult GetPaises(int id)
         {
@@ -36,6 +38,7 @@ namespace EvalValentinaGemio.Controllers
         }
 
         // PUT: api/Paises/5
+        [Authorize]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutPaises(int id, Paises paises)
         {
@@ -71,6 +74,7 @@ namespace EvalValentinaGemio.Controllers
         }
 
         // POST: api/Paises
+        [Authorize]
         [ResponseType(typeof(Paises))]
         public IHttpActionResult PostPaises(Paises paises)
         {
@@ -86,6 +90,7 @@ namespace EvalValentinaGemio.Controllers
         }
 
         // DELETE: api/Paises/5
+        [Authorize]
         [ResponseType(typeof(Paises))]
         public IHttpActionResult DeletePaises(int id)
         {
