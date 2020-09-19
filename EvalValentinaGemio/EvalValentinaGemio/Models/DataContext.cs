@@ -9,5 +9,7 @@ namespace EvalValentinaGemio.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<EvalValentinaGemio.Models.Paises> Paises { get; set; }
     }
 }
